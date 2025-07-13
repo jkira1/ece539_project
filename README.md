@@ -2,8 +2,8 @@
 
 ## 📄 Project Description
 
-This repository contains a collaborative machine learning project focused on [brief one-line description of the problem/domain, e.g., analyzing unusual responses in power electronics or robotics sensor data].  
-Our goal is to implement and explore a variety of machine learning models — including neural networks, K-Nearest Neighbors (KNN), classification, regression, and more — applied to real-world signal/data challenges in digital systems.
+This repository contains a collaborative machine learning project focused on ....  
+Our goal is to implement and explore a variety of machine learning models — including neural networks, K-Nearest Neighbors (KNN), classification, regression, and more.
 
 ---
 
