@@ -1,8 +1,8 @@
-# TITLE
+# Skin Cancer Detection and Classification
 
 ## Project Description
 
-This repository contains a collaborative machine learning project focused on ....  
+This repository contains a collaborative machine learning project focused on classifying skin cancer from images and also checking if they are benign or not.
 Our goal is to implement and explore a variety of machine learning models — including neural networks, K-Nearest Neighbors (KNN), classification, regression, and more.
 
 ---
