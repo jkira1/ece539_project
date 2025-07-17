@@ -1,1 +1,15 @@
-For google colab, download datasets https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign and https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic?resource=download. Then add them into google drive and use them when you mount from colab. 
+For google colab, download datasets https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign and https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic?resource=download. Then add them into google drive and use them when you mount from colab.
+
+Copy and paste bash code below to download from kaggle to drive. Note: you must go to kaggle and get the api json file from your profile settings, simply generate new token and it should download.
+
+
+from google.colab import drive
+drive.mount('/content/drive')
+!pip install -q kaggle
+from google.colab import files
+files.upload()
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!kaggle datasets download -d fanconic/skin-cancer-malignant-vs-benign -p /content/drive/MyDrive/ece539_project/data --unzip
+!kaggle datasets download -d nodoubttome/skin-cancer9-classesisic -p /content/drive/MyDrive/ece539_project/data --unzip
