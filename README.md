@@ -3,7 +3,7 @@
 ## Project Description
 
 This repository contains a collaborative machine learning project focused on classifying skin cancer from images and also checking if they are benign or not.
-The project uses pretrained CNN models such as ResNet50 to achieve this goal. The data from kaggle which splits the data to test and train as well as their labels as benign or malignant. Note: The data is large and cannot be directly zipped to github, either download directly from kaggle or use the code from the datasets folder to download to your directory.
+The project uses pretrained CNN models such as ResNet50 to achieve this goal. The data from kaggle which splits the data to test and train as well as their labels as benign or malignant. Note: The data is large and cannot be directly zipped to github, either download directly from kaggle or use the code from the datasets folder to download to your directory. (https://drive.google.com/file/d/1KYPminN0r-CTWlRcowdrvKeM6dv2I3lD/view)
 
 ---
 
